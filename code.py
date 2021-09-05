@@ -128,7 +128,7 @@ while True:
       for i in range(1, w + 1):
         factorials *= i
         return factorials
-     print(Factorial(w))
+    print(Factorial(w))
   
   answer = input("\nWould you like to perform another operation? Enter 'y' for yes or 'n' for no: ")
 
