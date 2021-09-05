@@ -1,9 +1,12 @@
 # main.py
 
 print("Welcome to the calculator!\n")
-operation = input("Choose an operation to get started (+, -, *, /, ^, !): ")
+
 
 while True:
+  operation = input("Choose an operation to get started (+, -, *, /, ^, !): ")
+
+
   if operation == "+":
     #num1 = int(input("Enter the first number: "))
     #num2 = int(input("Enter the second number: "))
@@ -127,7 +130,7 @@ while True:
       factorials = 1
       for i in range(1, w + 1):
         factorials *= i
-        return factorials
+      return factorials
     print(Factorial(w))
   
   answer = input("\nWould you like to perform another operation? Enter 'y' for yes or 'n' for no: ")
